@@ -1,6 +1,7 @@
 # To-Do App
 
 Welcome to the To-Do App! This simple application allows you to manage your tasks effectively. You can add, remove, and mark tasks as completed, all in one convenient interface.
+![to-do-app-img]
 
 ## Features
 
