@@ -44,9 +44,11 @@ function addTasks(task) {
 }
 function addFromLocalStorage() {
   if (tasks.length === 0) return;
-  tasks.forEach((i) => {
-    addTasks(i);
-  });
+  else {
+    tasks.forEach((i) => {
+      addTasks(i);
+    });
+  }
 }
 btn.addEventListener("click", function () {
   if (input.value == "" || input.value == " ") alert("Please enter some text");
